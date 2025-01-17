@@ -22,7 +22,7 @@ body {
 /*-------------------header--------------------------*/
 header {
     background: #000;
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1)),url('/assets/images/bg-img.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1)),url('assets/images/bg-img.jpg');
     background-size:cover;
     background-position:center center;
     height: 450px;
@@ -208,7 +208,7 @@ nav .nav-bar .logo a {
   width: 200px;
   height: 200px;
   border-radius: 100px;
-  background: url('/assets/images/main-logo.png');
+  background: url('assets/images/main-logo.png');
   background-size: cover;
 }
 
