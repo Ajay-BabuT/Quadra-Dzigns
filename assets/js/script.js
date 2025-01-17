@@ -28,18 +28,6 @@ body.addEventListener("click", (e) => {
 });
 /*-------------------nav--------------------------*/
 
-document.querySelectorAll('.vdo-cards video').forEach(video => {
-  // Play video when mouse enters
-  video.addEventListener('mouseenter', () => {
-    video.play();
-  });
-
-  // Pause video when mouse leaves
-  video.addEventListener('mouseleave', () => {
-    video.pause();
-    video.currentTime = 0; // Reset to the beginning
-  });
-});
 
 
 
