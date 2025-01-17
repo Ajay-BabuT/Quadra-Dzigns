@@ -271,50 +271,33 @@ nav .nav-bar .logo a {
 /*-------------------recent-work----------------------*/
 
 .recent-work{
-  width: 100%;
-  height: auto;
-  background: transparent;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  letter-spacing: 2px;
-  font-size: 5vw;
-  margin-top: 20px;
+ text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 600px;
 }
 .recent-work h2{
-  
+  font-size: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.recent-work .main-vdo{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  padding: 16px;
-  justify-content: center;
+.recent-work .main-img{
+  display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 30px;
 }
-.recent-work . main-vdo .vdo-cards{
-  width: 100%; /* Full width on small screens */
-  height: auto;
-  color: white;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border-radius: 8px;
+.recent-work .main-img img{
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
 }
-.recent-work .vdo-cards video{
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-@media (min-width: 768px) {
-  .vdo-cards {
-    width: calc(33.33% - 16px); /* 3 videos per row with gap */
-  }
-}
+.main-img img:hover {
+      transform: scale(1.05);
+    }
+
+
 .more-btn{
   width: 200px;
   height: 40px;
