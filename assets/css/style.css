@@ -208,7 +208,7 @@ nav .nav-bar .logo a {
   width: 200px;
   height: 200px;
   border-radius: 100px;
-  background-image: url(./assets/images/main-logo.png);
+  background-image: url(/assets/images/main-logo.png);
   background-size: cover;
 }
 
