@@ -212,6 +212,34 @@ nav .nav-bar .logo a {
   background-size: cover;
 }
 
+.trending-sec{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+.trending-sec h1{
+  font-size: 50px;
+}
+.trending-sec .trd-vdo{
+  display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 30px;
+}
+.trending-sec .trd-vdo video{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.trending-sec a{
+  text-decoration: none;
+  text-shadow: 2px 2px 5px rgb(255,255,255,0.5);
+  color: cyan;
+}
+
+
 .can-help{
   margin: 20px 0px 20px 10px;
   text-align: center;
