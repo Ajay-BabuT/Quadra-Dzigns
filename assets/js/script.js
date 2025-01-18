@@ -43,7 +43,7 @@ document.querySelectorAll('.vdo-cards video').forEach(video => {
 });
 
 
-
+/*-------------------ajax--------------------------*/
 
 //form script
 
@@ -64,3 +64,29 @@ $("#submit-form").submit((e)=>{
                 }
             })
         })
+
+
+/*-------------------video--------------------------*/
+const video = document.getElementById('trd-video');
+    let isPlaying = false;
+
+    // Play on hover
+    video.addEventListener('mouseenter', () => {
+      video.play();
+    });
+
+    // Pause and reset on mouse leave
+    video.addEventListener('mouseleave', () => {
+      video.pause();
+      video.currentTime = 0; // Reset the video to the start
+    });
+
+    // Toggle play/pause on click
+    video.addEventListener('click', () => {
+      if (isPlaying) {
+        video.pause();
+      } else {
+        video.play();
+      }
+      isPlaying = !isPlaying; // Toggle the state
+    });
