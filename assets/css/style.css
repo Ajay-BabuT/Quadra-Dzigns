@@ -350,7 +350,8 @@ nav .nav-bar .logo a {
 	width: 100%;
 	min-height: auto;
 	padding: 50px 100px;
-	background: #0a0a0a;
+	background: #fff/30%;
+  backdrop-filter:blur(30px);
 	display: flex;
 	justify-content: center;
 	align-items: center;
