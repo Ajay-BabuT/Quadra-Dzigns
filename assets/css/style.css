@@ -271,6 +271,7 @@ nav .nav-bar .logo a {
   background: transparent;
   margin: 10px 10px 10px 10px;
   align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.9);
 }
 @media (min-width:800){
   .service-card{
