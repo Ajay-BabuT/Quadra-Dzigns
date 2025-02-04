@@ -24,7 +24,7 @@ body {
 }
 /*-------------------header--------------------------*/
 header {
-    background: rgba(255,255,255,0.1);
+    background: transparent;
     width: 100%;
     color: #fff;
     display: flex;
@@ -108,10 +108,6 @@ nav .nav-bar .logo a {
 }
 
 @media (max-width: 790px) {
-  header{
-    width: 100%;
-    height: 290px;
-  }
   nav .nav-bar .sidebarOpen {
     display: block;
   }
