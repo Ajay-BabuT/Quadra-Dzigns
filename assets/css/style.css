@@ -9,7 +9,7 @@
   transition: all 0.4s ease;
 }
 /*  Colours  */
-/*body {
+body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: #fff;
@@ -21,8 +21,8 @@
     overflow-x: hidden;
     flex-direction: column;
     height:100%;
-}*/
-body {
+}
+/*body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: #fff;
@@ -42,7 +42,7 @@ body::before {
     background:#000 url('/assets/images/main-bg.jpg') center/cover no-repeat;
 background-attachment: scroll;
     z-index: -1;
-}
+}*/
 /*-------------------header--------------------------*/
 header {
     background: transparent;
