@@ -16,7 +16,7 @@ body {
     background: url('/assets/images/main-bg.jpg');  
     background-size: cover;  
     background-position: center;  
-    background-attachment: fixed;  
+    background-attachment: scroll;  
     line-height: 1.6;
     overflow-x: hidden;
     flex-direction: column;
