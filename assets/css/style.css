@@ -18,7 +18,7 @@ body {
     background-position: center;  
     background-attachment: fixed;  
     line-height: 1.6;
-    display: flex;
+    overflow-x: hidden;
     flex-direction: column;
     min-height: 100vh;
 }
