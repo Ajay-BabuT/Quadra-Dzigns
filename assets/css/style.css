@@ -13,10 +13,10 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: #fff;
-    background: url('/assets/images/main-bg.jpg');  
+    background: #000 url('/assets/images/main-bg.jpg');  
     background-size: cover;  
     background-position: center;  
-    background-attachment: scroll;  
+    background-attachment: fixed;  
     line-height: 1.6;
     overflow-x: hidden;
     flex-direction: column;
