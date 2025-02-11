@@ -19,6 +19,7 @@ body {
     background-attachment: scroll;  
     line-height: 1.6;
     overflow-x: hidden;
+    display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
