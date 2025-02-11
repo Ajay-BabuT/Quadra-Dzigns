@@ -20,7 +20,7 @@
     line-height: 1.6;
     overflow-x: hidden;
     flex-direction: column;
-    min-height: 100vh;
+    height:100%
 }*/
 body {
     margin: 0;
